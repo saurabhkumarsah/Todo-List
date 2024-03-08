@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #4c8787;
+}
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 500px;
+    height: auto;
+    background-color: #f3f6ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    margin: 0 0 10px 0;
+    color: #0a032a;
+}
+
+.container .add-list {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container .add-list input{
+    width: 300px;
+    height: 50px;
+    border: 2px solid #4c8787;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: #0a032a;
+}
+
+.container .add-list input[placeholder] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.8;
+    padding-left: 15px;
+}
+
+.container .add-list button {
+    height: 50px;
+    width: 60px;
+    background-color: #4c8787;
+    border: none;
+    border-radius: 5px;
+    color: #f3f6ff;
+    font-size: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* .container .add-list button:hover {
+    border: 2px solid #f9d370;
+    color: #f9d370;
+    background-color: transparent;
+} */
+
+.container .add-list input:focus {
+    border: 2px solid #f9d370 ;
+    outline: none;
+}
+
+.container .task-show {
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    width: 380px;
+}
+
+.container .task-show .left input[type] {
+    border: 1px solid #0a032a;
+    margin-right: 10px;
+}
+
+.container .task-show .left span {
+    font-size: 20px;
+}
+
+.container .task-show .right i {
+    font-size: 30px;
+    color: #f9d370;
+    font-weight: 900;
+    border-radius: 50px;
+    cursor: pointer;
+    /* border: 2px solid #f9d370;
+    padding: 0px 5px; */
+}
+/* .container .task-show .left .checkbox {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    border: 1px solid #0a032a;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+} */
+
+/* .container .task-show .left .checkbox i{
+    opacity: 0;
+}
+.container .task-show .left .checkbox i:active {
+    opacity: 1;
+} */
+
+/* .taskspan {
+    text-decoration: line-through;
+} */
